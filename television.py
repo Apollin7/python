@@ -11,7 +11,8 @@ class Television:
             None: It is none because the constructor does not return a value.
             It initializes the instance variables of the object, setting the initial power
             status to 'off' (False), mute status to 'not muted', volume status to
-            the minimum value, and channel status to the minimum value defined by the class constant MIN_CHANNEL."""
+            the minimum value, and channel status to the minimum value defined by
+            the class constant MIN_CHANNEL."""
         self._status = False
         self._muted = False
         self._volume = Television.MIN_VOLUME
