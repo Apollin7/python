@@ -7,7 +7,7 @@ class Television:
     def __init__(self) -> None:
         """This method is an initializer (constructor) for the Television class.
         It is automatically invoked when a new instance of the Television class is created.
-        Returns:
+        Return:
             None: because the constructor does not return a value.
             It initializes the instance variables of the object."""
         self._status = False
