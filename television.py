@@ -4,8 +4,12 @@ class Television:
     MIN_CHANNEL = 0
     MAX_CHANNEL = 3
 
-    def __init__(self):
-        """Initialize the Television instance with default values for power status, mute status, channel and volume."""
+    def __init__(self) -> None:
+        """This method is an initializer (constructor) for the Television class.
+        It is automatically invoked when a new instance of the Television class is created.
+        Returns:
+            None: because the constructor does not return a value.
+            It initializes the instance variables of the object."""
         self._status = False
         self._muted = False
         self._volume = Television.MIN_VOLUME
